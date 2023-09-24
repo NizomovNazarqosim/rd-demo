@@ -1,0 +1,132 @@
+.profile{
+    padding: 0 20px;
+}
+/* header */
+.profile-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-div{
+    display: flex;
+    gap: 10px;
+}
+.header-save-btn{
+    height: 40px;
+    background-color: rgb(70, 70, 70);
+    color: rgb(133, 132, 132);
+    outline: none;
+    width:140px;
+    border-radius:5px;
+    border:none;
+    font-size:18px;
+}
+.header-save-btn:hover{
+    cursor:pointer;
+}
+/* picture */
+.profile-picture{
+    display: flex;
+}
+.picture-left{
+    width: 20%;
+}
+.picture-user{
+    width: 170px;
+    height: 180px;
+    background-color: rgb(51, 51, 51);
+}
+.picture-stars{
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+}
+.picture-right{
+    width: 100%;
+    margin: 0 10px;
+}
+.right-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-top-line{
+    width: 94%;
+    height: 1px;
+    background-color: gray;
+    margin: 0 15px;
+    border-radius: 8px;
+}
+.pic-button-wrapper{
+}
+.input-checkbox{
+    display:flex;
+    align-items:center;
+    
+}
+.input-label{
+    width:30%;
+    height:40px;
+}
+
+/* general information */
+.info{
+    margin-top:30px;
+    width:100%;
+}
+.info-top{
+    display:flex;
+    align-items:center;
+    width:100%;
+}
+.info-top h3{
+    font-size: 21px;
+}
+.info-line{
+    width:76%;
+    height:1.5px;
+    background-color: rgb(168, 161, 161); 
+    margin: 0 10px;
+}
+
+.like-wrapper{
+    display:flex;
+    align-items:center;
+    background-color: gray;
+    height: 40px;
+}
+.like-paragraph{
+    width: 30%;
+    margin-left:10px;
+}
+.select-like{
+    width: 70%;
+    border:none;
+    height:24px;
+    outline:none;
+}
+/* work and address */
+.work-address{
+    display:flex;
+    align-items:start;
+    gap:20px;
+}
+.work{
+    width:50%;
+}
+.address{
+    width:50%;
+}
+.flex{
+    display:flex;
+    align-items:center;
+}
+.line-half{
+    width:100%;
+    height:1px;
+    background-color:white;
+    margin: 0 10px;
+}
+.address-heading{
+    width: 48%;
+}
